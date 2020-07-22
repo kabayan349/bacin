@@ -75,9 +75,9 @@ ulang:
         $uuid = getStr('"resource_owner_id":',',',$verif);
         echo color("white","+] Your access token : ".$token."\n\n");
         save("token.txt",$token); 
-        echo color("white","\n▬▬▬▬▬▬▬▬▬▬▬▬CLAIM VOUCHER▬▬▬▬▬▬▬▬▬▬▬▬");
-        echo "\n".color("white","CLAIM A..");
-        echo "\n".color("white"," ENTENI SUU");
+        echo color("yellow","\n▬▬▬▬▬▬▬▬▬▬▬▬DOLAN DUKUH RAINTEN▬▬▬▬▬▬▬▬▬▬▬▬");
+        echo "\n".color("yellow","WAHIDAH..");
+        echo "\n".color("red"," Segeerrr...");
         for($a=1;$a<=3;$a++){
         echo color("white",".");
         sleep(35);
@@ -90,8 +90,8 @@ ulang:
         }else{
         echo "\n".color("white"," Message: ".$message);
 	gocar:
-        echo "\n".color("white","CLAIM B.. ");
-        echo "\n".color("white"," SABARR SUUU");
+        echo "\n".color("yellow","SANAH.. ");
+        echo "\n".color("red"," Mantaappp...");
         for($a=1;$a<=3;$a++){
         echo color("white",".");
         sleep(5);
@@ -104,8 +104,8 @@ ulang:
         }else{
         echo "\n".color("white"," Message: ".$message);
         gofood:
-        echo "\n".color("white","CLAIM C..");
-        echo "\n".color("white"," BADOG KWEEH");
+        echo "\n".color("yellow","ENI..");
+        echo "\n".color("red"," Bah Minuss...");
         for($a=1;$a<=3;$a++){
         echo color("white",".");
         sleep(5);
