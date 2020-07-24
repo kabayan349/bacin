@@ -80,7 +80,7 @@ ulang:
         echo "\n".color("red"," Segeerrr...");
         for($a=1;$a<=3;$a++){
         echo color("white",".");
-        sleep(35);
+        sleep(20);
         }
         $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGOFOOD2107"}');
         $message = fetch_value($code1,'"message":"','"');
@@ -94,7 +94,7 @@ ulang:
         echo "\n".color("red"," Mantaappp...");
         for($a=1;$a<=3;$a++){
         echo color("white",".");
-        sleep(5);
+        sleep(15);
         }
         $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGOFOOD2107"}');
         $message = fetch_value($code1,'"message":"','"');
@@ -108,12 +108,12 @@ ulang:
         echo "\n".color("red"," Bah Minuss...");
         for($a=1;$a<=3;$a++){
         echo color("white",".");
-        sleep(5);
+        sleep(15);
         }
-        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGOFOOD2107"}');
+        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"PESANGOFOOD2107"}');
         $message = fetch_value($code1,'"message":"','"');
         echo "\n".color("white"," Message: ".$message);
-        sleep(15);
+        sleep(5);
         $cekvoucher = request('/gopoints/v3/wallet/vouchers?limit=13&page=1', $token);
         $total = fetch_value($cekvoucher,'"total_vouchers":',',');
         $voucher1 = getStr1('"title":"','",',$cekvoucher,"1");
